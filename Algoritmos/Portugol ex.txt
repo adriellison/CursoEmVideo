@@ -1,0 +1,29 @@
+/***** Portugol *****\
+
+A <- 5
+A <- 2
+	Operadores Aritmeticos
+	A + B = 5        + Adição
+	A - B = 3        - Subtração
+	A * B = 10       * Multiplicação
+	A / B = 2.5      / Divisão
+	A \ B = 2        \ Divisão inteira
+	A ^ B = 25       ^ Exponenciação
+	A % B = 1        % Módulo (resto da divisão)
+
+Ordem de precedência
+	( ) Parênteses
+	^   Exponenciação
+	* / Multiplicação Divisão
+	+ - Adição Subtração
+
+Funções Aritmeticas
+	Abs				Valor Absoluto		Abs(-10)		10
+	Exp				Exponenciação		Exp(3,2)		9
+	Int				Inteiro				Int(3.9)		3
+	RaizQ			Raiz Quadrada		RaizQ(25)		5
+	Pi				Retorna	Pi			Pi				3.14
+	Sen				Seno (rad)			Sen(0.523)		0.5
+	Cos				Cosseno (rad)		Cos(0.523)		0.86
+	Tan				Tangente (rad)		Tan(0.523)		0.57
+	GraupRad	Graus para Rad			GraupRad(30)	0.523
