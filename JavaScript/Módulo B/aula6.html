@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=<,>, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		body{
+			background-color: #292153;
+			color: #fff8dc;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		// Manipulação de dados
+		// var nome = window.prompt('Qual é seu nome?')
+		// window.alert('É um prazer em te conhecer, ' + nome)
+		var n1 = window.prompt("Digite um número:") // prompt retorna string
+		var n2 = window.prompt("Digite outro número:")
+		// window.alert("A soma dos valores é: " + soma) // concatena
+		// pra converter strings e, numeros
+		// Number.parseInt(n) // para inteiros, nova att se usa apenas Number(n) ou String(n) para converter
+		var soma = Number(n1) + Number(n2)
+		// window.alert("A soma dos valores é: " + soma)
+		window.alert(`A soma dos valores é: ${soma}`)
+
+		// var s = 'JavaScript'
+		// 'Eu estou aprendendo s'	// não faz interpolação
+		// 'Eu estou aprendendo'+s	// usa concatenação
+		// `Eu estou aprendendo ${s}`	//usa template string // att mais nova
+
+		// s.length // conta quantidade de letras em uma string
+		// s.toUpperCase() // transforma em letras maiúsculas
+		// s.toLowerCase() // transforma em letras minúsculas
+		
+		var nome = window.prompt("Qual é seu nome?")
+		document.write(`Seu nome tem ${nome.length} letras.`) // escreve no corpo da página
+
+		// formatando números:
+		var n1 = 1543.5
+
+		n1.toFixed(2) // mostra duas casa decimais após a vírgula
+
+		n1.toFixed(2).replace('.', ',') // troca o ponto por vírgula
+
+		n1.toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'}) // converte para Real
+		n1.toLocaleString('pt-Br', {style: 'currency', currency: 'USD'}) // converte para Dolar
+		n1.toLocaleString('pt-Br', {style: 'currency', currency: 'EUR'}) // converte para Euro
+
+	</script>
+</body>
+</html>
